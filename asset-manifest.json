@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/learningloss/static/css/main.b8bd1ac6.css",
-    "main.js": "/learningloss/static/js/main.d25557d5.js",
+    "main.js": "/learningloss/static/js/main.11a22422.js",
     "static/js/787.c165209c.chunk.js": "/learningloss/static/js/787.c165209c.chunk.js",
     "static/media/jumbotron.jpg": "/learningloss/static/media/jumbotron.706604452b312cbcf5f9.jpg",
     "static/media/mts.jpg": "/learningloss/static/media/mts.1127c28a94c7ffa86465.jpg",
     "index.html": "/learningloss/index.html",
     "main.b8bd1ac6.css.map": "/learningloss/static/css/main.b8bd1ac6.css.map",
-    "main.d25557d5.js.map": "/learningloss/static/js/main.d25557d5.js.map",
+    "main.11a22422.js.map": "/learningloss/static/js/main.11a22422.js.map",
     "787.c165209c.chunk.js.map": "/learningloss/static/js/787.c165209c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b8bd1ac6.css",
-    "static/js/main.d25557d5.js"
+    "static/js/main.11a22422.js"
   ]
 }
