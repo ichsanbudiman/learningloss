@@ -2,7 +2,7 @@
   "name": "learning-loss-frontend",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ichsanbudiman.github.io/learningloss",
+  "homepage": ".",
   "dependencies": {
     "@material-ui/core": "^4.12.4",
     "@material-ui/lab": "^4.0.0-alpha.61",
@@ -21,7 +21,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d build -r https://github.com/ichsanbudiman/learningloss.git",
     "start": "PORT=3006 react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

@@ -6,8 +6,8 @@
     height: 48px;
     background-color: #350fa9;
     /*box-hadow: 0 1px 3px rgba(160,166,179,0.3);*/
-    fontsize: 0.75rem;
-    letterSpacing: 1px;
+    font-size: 0.75rem;
+    letter-spacing: 1px;
 }
 
 .home-header-logo {
