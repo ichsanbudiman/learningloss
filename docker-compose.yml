@@ -1,0 +1,13 @@
+version: '3.7'
+
+services:
+  frontend:
+    image: ifds-pwa:prod
+    ports:
+      - '2212:80'
+    deploy:
+      resources:
+        limits:
+          cpus: "0.5"
+          memory: 800M
+    restart: always
