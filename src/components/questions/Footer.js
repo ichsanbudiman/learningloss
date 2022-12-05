@@ -1,5 +1,5 @@
 import React from "react";
-import "../css/stylesheet.css";
+import "../../css/QustionFooter.css";
 
 class Footer extends React.Component {
     render() {
@@ -7,7 +7,7 @@ class Footer extends React.Component {
             <div className='footer'>
                 <div className='footer-inner'>
                     <div className='footer-logo'>
-                        <img alt={'footer'} src='http://if.uinsgd.ac.id/wp-content/uploads/2016/08/h4.png'/>
+                        <img src='http://if.uinsgd.ac.id/wp-content/uploads/2016/08/h4.png'/>
                         <p>Deteksi “Learning Loss” Akibat Pandemi</p>
                     </div>
                     <ul className='footer-list'>

@@ -1,0 +1,124 @@
+.schools-container{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.schools-container .list-card{
+    margin-bottom: 20px;
+}
+
+
+.lesson-card {
+    display: inline-block;
+    width: 30%;
+    margin-right: 24px;
+    text-align: center;
+    box-shadow: 0 0 6px #e8e8e8;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.lesson-item {
+    border-radius: 4px;
+    /*padding: 48px 0 64px;*/
+}
+.lesson-item .image{
+    height: 150px;
+    background-color: darkslategrey;
+
+}
+.lesson-item .mi{
+    background-image: url('mts.jpg');
+    background-position: 0% 15%;
+}
+
+.lesson-item .mts{
+    background-image: url('mts.jpg');
+    background-position: 0% 15%;
+}
+
+.lesson-item .ma{
+    background-image: url('mts.jpg');
+    background-position: 0% 15%;
+}
+
+.lesson-item img {
+    width: 126px;
+}
+.lesson-item h4{
+    color: #2b546a;
+    font-size: 20px;
+    margin-top: 24px;
+    font-weight: 400;
+    text-align: left;
+    padding-left: 10px;
+}
+.lesson-item p {
+    color: #2b546a;
+    text-align: left;
+    padding-left: 10px;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.detail-lesson-item{
+    background-color: rgba(43,84,106,0.2);
+    padding:10px;
+
+
+}
+.lesson-card .btn-detail{
+    display: inline-block;
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    border-radius: 4px;
+    color: #444;
+    background-color: #fff;
+    margin-top : 5px;
+    margin-right: 10px;
+    text-decoration: none;
+    box-shadow: 1px 1px #5876a3;
+    position: relative;
+}
+.home-modal-inner {
+    position: absolute;
+    top: 8%;
+    right: 0;
+    left: 0;
+    width: 1080px;
+    background-color: white;
+    padding-bottom: 20px;
+    border-radius: 8px;
+    margin: auto;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.home-modal-header {
+    height: 28px;
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 8px 8px 0 0;
+    float:left;
+    border-bottom: 0.2px solid #e5e4e4;
+    text-align: right;
+}
+.home-modal-header .fa-solid{
+    cursor: pointer;
+    padding-right: 10px;
+    line-height: 2;
+}
+

@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from "react";
-import "../../css/stylesheet.css";
+import "../../css/QuestionHeader.css";
 
 function Header({questions, indextActiveQuestion,setIndexActiveQuestion}) {
     let category = '';
@@ -62,7 +62,7 @@ function Header({questions, indextActiveQuestion,setIndexActiveQuestion}) {
         <div className='header'>
             <div className='header-logo'>
                 <img
-                    src='https://www.freepnglogos.com/uploads/logo-kemenag-png/download-logo-kementerian-agama-tanjungbalai-10.png'/>
+                    src={process.env.PUBLIC_URL +'/images/kemenag.png'}/>
             </div>
             <span className='header-nav' style={{float: "left", height: '100%'}} onClick={handleModalClick}>
                     <span className='intro-to-page-list'>
@@ -75,7 +75,7 @@ function Header({questions, indextActiveQuestion,setIndexActiveQuestion}) {
                     </span>
                 </span>
             <div className='header-home'>
-                <a>Home</a>
+                <a href={'/'}>Home</a>
             </div>
             <div className={'button-close'}>
                 {modal}

@@ -1,11 +1,35 @@
-body {
-    margin: 0;
-    padding: 0;
-    /*min-width: 1280px;*/
-    box-sizing: border-box;
+.header {
+    position: fixed;
+    top: 0;
+    z-index: 200000;
+    width: 100%;
+    height: 48px;
+    background-color: #fff;
+    /*box-hadow: 0 1px 3px rgba(160,166,179,0.3);*/
+    fontsize: 0.75rem;
+    letterSpacing: 1px;
 }
 
+.header-logo {
+    height: 48px;
+    width: 60px;
+    background-color: #fff;
+    float: left;
+    text-align: center;
+}
 
+.header-logo img {
+    width: 50px;
+    padding-top: 7px;
+    padding-left: 15px;
+
+}
+h3 {
+    font-size: 20px;
+    border-bottom: 1px solid #e1e6ec;
+    line-height: 64px;
+    /*margin-bottom: 40px;*/
+}
 h2, h3 {
     font-family: "Lato";
     color: #2b546a;
@@ -26,49 +50,6 @@ h3 {
 .question-main-wrapper{
     position: relative;
     top:50px;
-}
-
-
-.main-wrapper {
-    background-color: #f4fafa;
-
-}
-
-
-
-.footer-inner {
-    padding-top: 20px;
-    background-color: white;
-    max-width: 1040px;
-    margin: 0 auto;
-}
-
-.footer-logo {
-    display: inline-block;
-    float:left;
-}
-
-.footer-logo img {
-    margin:0;
-    padding:0;
-    height: 40px;
-}
-
-.footer-logo p {
-    /*padding-left: 30px;*/
-    color: #b1c0c0;
-    font-size: 12px;
-
-}
-
-.footer-inner ul {
-    float: right;
-}
-
-.footer-inner li {
-    color: #2b546a;
-    display: inline-block;
-    padding-left: 16px;
 }
 
 .intro-to-page-list:hover{
@@ -109,6 +90,26 @@ h3 {
 .fa-circle-chevron-down{
     margin-left: 10px;
 }
+.header-home{
+    float: right;
+    line-height: 48px;
+    width: 100px;
+    background-color: #f5f7fa;
+    text-align: center;
+    color: whitesmoke;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.header-home:hover{
+    background-color: #E5E6E8FF;
+    transition: .3s ease-in-out;
+}
+.header-home a{
+    text-decoration: none;
+    color: #30546a;
+    font-size: 13px;
+}
+
 .modal{
     position: fixed;
     top:0;
@@ -119,7 +120,7 @@ h3 {
 }
 .modal-inner{
     position: absolute;
-    /*top: 8%;*/
+    top: 8%;
     right: 0;
     left: 0;
     width: 600px;
@@ -201,16 +202,4 @@ h3 {
 }
 .button-close{
     text-align: center;
-}
-.header-home{
-    float: right;
-    line-height: 48px;
-    width: 100px;
-    background-color: rgba(48,84,106,0.9);
-    text-align: center;
-    color: whitesmoke;
-    cursor: pointer;
-}
-.header-home:hover{
-    background-color: rgba(48,84,106,0.8);
 }

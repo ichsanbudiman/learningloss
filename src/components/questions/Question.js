@@ -10,7 +10,7 @@ export function Question({indexActiveQuestion, questions, setAnswers, answers}) 
         const tQuestion = tValue[1];
         const tAnswer = tValue[2];
         const data = [{noSoal: tNoSoal, data: {question: tQuestion, answer: tAnswer}}]
-        if (answers.get(indexActiveQuestion) == undefined) {
+        if (answers.get(indexActiveQuestion) === undefined) {
             setAnswers((prevAnswers) => new Map(prevAnswers.set(indexActiveQuestion, data)));
         } else {
             let tAnswers = answers.get(indexActiveQuestion);
@@ -30,7 +30,7 @@ export function Question({indexActiveQuestion, questions, setAnswers, answers}) 
 
     function generateRadio(tAnswers,tQuestion,optionList){
         tQuestion.options.map((option) => {
-            if (tAnswers == undefined) {
+            if (tAnswers === undefined) {
                 optionList.push(
                     <div className='question-option'>
                         <label className='question-item-container'>
@@ -49,7 +49,7 @@ export function Question({indexActiveQuestion, questions, setAnswers, answers}) 
             } else {
                 let exist = false;
                 tAnswers.map((answer) => {
-                    if (answer.noSoal == tQuestion.no && option == answer.data.answer) {
+                    if (answer.noSoal === tQuestion.no && option === answer.data.answer) {
                         exist = true;
                     }
                 });
@@ -93,7 +93,7 @@ export function Question({indexActiveQuestion, questions, setAnswers, answers}) 
         addAnswer(tQuestion.no+'#'+tQuestion.question+'#'+value);
     }
     function generateCombobox(tAnswers,tQuestion,optionList){
-        if(tAnswers==undefined){
+        if(tAnswers===undefined){
             optionList.push(
                 <Autocomplete
                     options={tQuestion.options}
@@ -108,7 +108,7 @@ export function Question({indexActiveQuestion, questions, setAnswers, answers}) 
             let tOption = '';
             tQuestion.options.map((option) => {
                 tAnswers.map((answer) => {
-                    if (answer.noSoal == tQuestion.no && option == answer.data.answer) {
+                    if (answer.noSoal === tQuestion.no && option === answer.data.answer) {
                         tOption = option;
                     }
                 });
@@ -127,7 +127,7 @@ export function Question({indexActiveQuestion, questions, setAnswers, answers}) 
     function generateQuestionForm(tQuestion) {
         const tAnswers = answers.get(indexActiveQuestion);
         let optionList = [];
-        if(tQuestion.questionType == 'radio'){
+        if(tQuestion.questionType === 'radio'){
             generateRadio(tAnswers,tQuestion,optionList);
         }else{
             generateCombobox(tAnswers,tQuestion,optionList);

@@ -1,9 +1,8 @@
 import React, {useState,useEffect} from "react";
 import Header from "./Header";
-import Footer from "../Footer";
+import Footer from "./Footer";
 import {Main} from "./Main";
 import "../../css/style-options.css";
-import create from 'zustand';
 import axios from "axios";
 
 

@@ -1,4 +1,4 @@
-import React, {useState,useEffect,useRef} from "react";
+import React, {useState,useEffect} from "react";
 import {Question} from "./Question";
 import ProgressAnswer from "./AnswerProgress";
 
@@ -55,7 +55,7 @@ export function Main({questions,setQuestions,indexActiveQuestion,setIndexActiveQ
             </div>
             <div className='question-nav-wrapper'>
                 <div className='question-back'>
-                    <a className='question-btn back' onClick={() => {
+                    <a href={'/#'} className='question-btn back' onClick={() => {
                         rewind()
                     }}>Kembali</a>
                 </div>
@@ -63,12 +63,12 @@ export function Main({questions,setQuestions,indexActiveQuestion,setIndexActiveQ
                     <ProgressAnswer percentage={answerProgress}/>
                 </div>
                 <div className='question-next'>
-                    {(answerProgress==100&&indexActiveQuestion==questions.length-1)?(
-                        <a className='question-btn submit' onClick={() => {
+                    {(answerProgress===100&&indexActiveQuestion===questions.length-1)?(
+                        <a href={'/#'} className='question-btn submit' onClick={() => {
                             forward()
                         }}>Submit</a>
                     ):(
-                        <a className='question-btn next' onClick={() => {
+                        <a href={'/#'} className='question-btn next' onClick={() => {
                             forward()
                         }}>Selanjutnya</a>
                     )}
