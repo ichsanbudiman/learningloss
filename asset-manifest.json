@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/learningloss/static/css/main.d149e545.css",
-    "main.js": "/learningloss/static/js/main.6681362e.js",
+    "main.css": "/learningloss/static/css/main.b3e6cd1f.css",
+    "main.js": "/learningloss/static/js/main.d25557d5.js",
     "static/js/787.c165209c.chunk.js": "/learningloss/static/js/787.c165209c.chunk.js",
     "static/media/jumbotron.jpg": "/learningloss/static/media/jumbotron.706604452b312cbcf5f9.jpg",
     "static/media/mts.jpg": "/learningloss/static/media/mts.1127c28a94c7ffa86465.jpg",
     "index.html": "/learningloss/index.html",
-    "main.d149e545.css.map": "/learningloss/static/css/main.d149e545.css.map",
-    "main.6681362e.js.map": "/learningloss/static/js/main.6681362e.js.map",
+    "main.b3e6cd1f.css.map": "/learningloss/static/css/main.b3e6cd1f.css.map",
+    "main.d25557d5.js.map": "/learningloss/static/js/main.d25557d5.js.map",
     "787.c165209c.chunk.js.map": "/learningloss/static/js/787.c165209c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d149e545.css",
-    "static/js/main.6681362e.js"
+    "static/css/main.b3e6cd1f.css",
+    "static/js/main.d25557d5.js"
   ]
 }
