@@ -50,10 +50,10 @@ class Lesson extends React.Component {
                                 <div className={'image mi'}></div>
                                 <h4 className={'title'}>Madrasah Ibtidaiyah</h4>
                                 <p className={'description'}>Total responden untuk siswa Madrasah Ibtidaiyah adalah sebanyak <b>38.326</b> siswa,
-                                    dengan pembagian <b>19.554</b> siswa laki-laki dan <b>18.772</b> siswa perempuan.
-                                    Keseluruhan data didapatkan dari sekolah Negeri dan Swasta dengan presentase sekolah Negeri sebanyak <b>91.85%</b> dan sekolah Swasta sebanyak <b>81.5%</b>.
+                                    dengan pembagian <b>18.772</b> siswa laki-laki dan <b>19.554</b> siswa perempuan.
+                                    Keseluruhan data didapatkan dari sekolah Negeri dan Swasta dengan presentase sekolah Negeri sebanyak <b>91.85%</b> dan sekolah Swasta sebanyak <b>8.15%</b>.
                                     Berdasarkan hasil penilaian, Kalimantan utara menjadi daerah dengan nilai rata-rata PAI tertinggi yaitu <b>72.19</b>.
-                                    <b>Selain Kalimantan Utara, DKI Jakarta, dan Bali</b>, pada provinsi lain terindikasi terjadi <i>Learning Loss</i>
+                                    <b>Selain Kalimantan Utara, DKI Jakarta, & Bali</b>, pada provinsi lain terindikasi terjadi <i>Learning Loss</i>.
 
                                 </p>
                             </div>
@@ -71,9 +71,13 @@ class Lesson extends React.Component {
                             <div className='lesson-item'>
                                 <div className={'image mts'}></div>
                                 <h4 className={'title'}>Madrasah Tsanawiyah</h4>
-                                <p className={'description'}>Lorem Ipsum is simply dummy text of the printing and
-                                    typesetting industry. Lorem IpsumLorem Ipsum is simply dummy text of the printing
-                                    and typesetting industry. Lorem Ipsum</p>
+                                <p className={'description'}>Total responden untuk siswa Madrasah Tsanawiyah adalah sebanyak <b>29.350</b> siswa,
+                                        dengan pembagian <b>13.250</b> siswa laki-laki dan <b>16.100</b> siswa perempuan.
+                                    Keseluruhan data didapatkan dari sekolah Negeri dan Swasta dengan presentase sekolah Negeri sebanyak <b>87.87%</b> dan sekolah Swasta sebanyak <b>12.13%</b>.
+                                    Berdasarkan hasil penilaian, Papua Pegunungan menjadi daerah dengan nilai rata-rata PAI tertinggi yaitu <b>71.67</b>.
+                                    <b> Selain Papua Pegunungan</b>, pada provinsi lain terindikasi terjadi <b><i>Learning Loss</i></b>.
+
+                                </p>
                             </div>
                             <div className={'detail-lesson-item'}>
                                 <a onClick={() => {
@@ -90,9 +94,13 @@ class Lesson extends React.Component {
                                 <div className={'image ma'}></div>
                                 <h4 className={'title'}>Madrasah Aliyah</h4>
                                 {/*<img src={this.props.image} alt={this.props.name}/>*/}
-                                <p className={'description'}>Lorem Ipsum is simply dummy text of the printing and
-                                    typesetting industry. Lorem IpsumLorem Ipsum is simply dummy text of the printing
-                                    and typesetting industry. Lorem Ipsum</p>
+                                <p className={'description'}>Total responden untuk siswa Madrasah Aliyah adalah sebanyak <b>13.474</b> siswa,
+                                    dengan pembagian <b>5.324</b> siswa laki-laki dan <b>8.150</b> siswa perempuan.
+                                    Keseluruhan data didapatkan dari sekolah Negeri dan Swasta dengan presentase sekolah Negeri sebanyak <b>9.06%</b> dan sekolah Swasta sebanyak <b>90.94%</b>.
+                                    Berdasarkan hasil penilaian, Papua menjadi daerah dengan nilai rata-rata PAI tertinggi yaitu <b>55.14</b>.
+                                    Fakta ini menunjukkan terjadi <b><i>Learning loss</i></b> pada mata pelajaran PAI pada jenjang Madrasah Aliyah.
+
+                                </p>
                             </div>
                             <div className={'detail-lesson-item'}>
                                 <a onClick={() => {
