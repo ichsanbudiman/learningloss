@@ -5,5 +5,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="learning-loss-backend" />
+    <orderEntry type="module" module-name="github-pages" />
   </component>
 </module>

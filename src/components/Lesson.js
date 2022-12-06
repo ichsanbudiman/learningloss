@@ -49,9 +49,13 @@ class Lesson extends React.Component {
                             <div className='lesson-item'>
                                 <div className={'image mi'}></div>
                                 <h4 className={'title'}>Madrasah Ibtidaiyah</h4>
-                                <p className={'description'}>Lorem Ipsum is simply dummy text of the printing and
-                                    typesetting industry. Lorem IpsumLorem Ipsum is simply dummy text of the printing
-                                    and typesetting industry. Lorem Ipsum</p>
+                                <p className={'description'}>Total responden untuk siswa Madrasah Ibtidaiyah adalah sebanyak <b>38.326</b> siswa,
+                                    dengan pembagian <b>19.554</b> siswa laki-laki dan <b>18.772</b> siswa perempuan.
+                                    Keseluruhan data didapatkan dari sekolah Negeri dan Swasta dengan presentase sekolah Negeri sebanyak <b>91.85%</b> dan sekolah Swasta sebanyak <b>81.5%</b>.
+                                    Berdasarkan hasil penilaian, Kalimantan utara menjadi daerah dengan nilai rata-rata PAI tertinggi yaitu <b>72.19</b>.
+                                    <b>Selain Kalimantan Utara, DKI Jakarta, dan Bali</b>, pada provinsi lain terindikasi terjadi <i>Learning Loss</i>
+
+                                </p>
                             </div>
                             <div className={'detail-lesson-item'}>
                                 <a onClick={() => {

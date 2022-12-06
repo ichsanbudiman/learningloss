@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../github-pages/.idea/github-pages.iml" filepath="$PROJECT_DIR$/../github-pages/.idea/github-pages.iml" />
       <module fileurl="file://$PROJECT_DIR$/../learning-loss-backend/.idea/learning-loss-backend.iml" filepath="$PROJECT_DIR$/../learning-loss-backend/.idea/learning-loss-backend.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/learning-loss-frontend.iml" filepath="$PROJECT_DIR$/.idea/learning-loss-frontend.iml" />
     </modules>

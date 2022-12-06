@@ -28,8 +28,8 @@
 
 }
 .lesson-item .mi{
-    background-image: url('mts.jpg');
-    background-position: 0% 15%;
+    background-image: url('mi.jpg');
+    background-position: 20% 205%;
 }
 
 .lesson-item .mts{
@@ -38,8 +38,8 @@
 }
 
 .lesson-item .ma{
-    background-image: url('mts.jpg');
-    background-position: 0% 15%;
+    background-image: url('ma.jpg');
+    background-position: 40% 5%;
 }
 
 .lesson-item img {
@@ -55,8 +55,9 @@
 }
 .lesson-item p {
     color: #2b546a;
-    text-align: left;
+    text-align: justify;
     padding-left: 10px;
+    padding-right: 15px;
     font-size: 14px;
     line-height: 22px;
 }

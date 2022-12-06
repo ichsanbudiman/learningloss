@@ -1,8 +1,8 @@
 {
   "name": "learning-loss-frontend",
   "version": "0.1.0",
-  "private": true,
-  "homepage": ".",
+  "private": false,
+  "homepage": "https://ichsanbudiman.github.io/learningloss/",
   "dependencies": {
     "@material-ui/core": "^4.12.4",
     "@material-ui/lab": "^4.0.0-alpha.61",
