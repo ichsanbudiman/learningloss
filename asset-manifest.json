@@ -1,17 +1,20 @@
 {
   "files": {
-    "main.css": "/learningloss/static/css/main.b8bd1ac6.css",
-    "main.js": "/learningloss/static/js/main.d25557d5.js",
-    "static/js/787.c165209c.chunk.js": "/learningloss/static/js/787.c165209c.chunk.js",
-    "static/media/jumbotron.jpg": "/learningloss/static/media/jumbotron.706604452b312cbcf5f9.jpg",
-    "static/media/mts.jpg": "/learningloss/static/media/mts.1127c28a94c7ffa86465.jpg",
-    "index.html": "/learningloss/index.html",
-    "main.b8bd1ac6.css.map": "/learningloss/static/css/main.b8bd1ac6.css.map",
-    "main.d25557d5.js.map": "/learningloss/static/js/main.d25557d5.js.map",
-    "787.c165209c.chunk.js.map": "/learningloss/static/js/787.c165209c.chunk.js.map"
+    "main.css": "./static/css/main.3c74ec28.css",
+    "main.js": "./static/js/main.7bc24210.js",
+    "static/js/787.c165209c.chunk.js": "./static/js/787.c165209c.chunk.js",
+    "static/media/jumbotron.jpg": "./static/media/jumbotron.706604452b312cbcf5f9.jpg",
+    "static/media/mts.jpg": "./static/media/mts.1127c28a94c7ffa86465.jpg",
+    "static/media/ma.jpg": "./static/media/ma.9b014e837cfff78d0160.jpg",
+    "static/media/mi.jpg": "./static/media/mi.68ff37bce01da1fa790c.jpg",
+    "static/media/header.svg": "./static/media/header.5ce7c920a2903a42e4d1.svg",
+    "index.html": "./index.html",
+    "main.3c74ec28.css.map": "./static/css/main.3c74ec28.css.map",
+    "main.7bc24210.js.map": "./static/js/main.7bc24210.js.map",
+    "787.c165209c.chunk.js.map": "./static/js/787.c165209c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b8bd1ac6.css",
-    "static/js/main.d25557d5.js"
+    "static/css/main.3c74ec28.css",
+    "static/js/main.7bc24210.js"
   ]
 }

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="480px" height="8px" viewBox="0 0 480 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>top バー 画像切り抜き用</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="目標物" transform="translate(-400.000000, -200.000000)">
+            <g id="modal">
+                <g id="modal-1" transform="translate(400.000000, 200.000000)">
+                    <g id="top-バー-画像切り抜き用">
+                        <polygon id="Rectangle" fill="#A0C3F7" points="240 0 360 0 352 8 232 8"></polygon>
+                        <polygon id="Rectangle" fill="#8BE4F3" points="360 0 480 0 480 8 352 8"></polygon>
+                        <polygon id="Rectangle" fill="#F9B4E0" points="120 0 240 0 232 8 112 8"></polygon>
+                        <polygon id="Rectangle" fill="#4CCFC9" points="0 0 120 0 112 8 0 8"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
